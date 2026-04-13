@@ -1,5 +1,4 @@
 # ~/.config/alacritty/alacritty.toml
-
 [window]
 padding = { x = 0, y = 0 }
 dynamic_padding = false
@@ -29,15 +28,15 @@ bright_foreground = "#FFFFFF"
 
 [colors.cursor]
 text = "#000000"
-cursor = "#FFFFFF"
+cursor = "#d91e36"
 
 [colors.vi_mode_cursor]
 text = "#000000"
-cursor = "#BFBFBF"
+cursor = "#d91e36"
 
 [colors.selection]
 text = "#000000"
-background = "#F2F2F2"
+background = "#d91e36"
 
 [colors.search.matches]
 foreground = "#000000"
@@ -65,7 +64,7 @@ background = "#111111"
 
 [colors.normal]
 black   = "#0A0A0A"
-red     = "#FF4D4D"
+red     = "#d91e36"
 green   = "#7CFF6B"
 yellow  = "#FFD84D"
 blue    = "#66B3FF"
@@ -75,7 +74,7 @@ white   = "#D9D9D9"
 
 [colors.bright]
 black   = "#2A2A2A"
-red     = "#FF7A7A"
+red     = "#ff2a47"
 green   = "#A8FF9A"
 yellow  = "#FFE88A"
 blue    = "#8CC8FF"
@@ -85,7 +84,7 @@ white   = "#FFFFFF"
 
 [colors.dim]
 black   = "#050505"
-red     = "#992D2D"
+red     = "#8b0000"
 green   = "#4D8F44"
 yellow  = "#A68E2F"
 blue    = "#3D6E99"

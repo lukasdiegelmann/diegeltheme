@@ -1,0 +1,20 @@
+format = """
+$directory$git_branch$git_status$character"""
+
+[directory]
+style = "white bold"
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = ""
+style = "white"
+format = " [$symbol$branch]($style) "
+
+[git_status]
+style = "red"
+format = "([$all_status$ahead_behind]($style) )"
+
+[character]
+success_symbol = "[❯](bold #d91e36)"
+error_symbol = "[❯](bold #8b0000)"
